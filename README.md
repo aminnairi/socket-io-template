@@ -2,10 +2,10 @@
 
 ## Requirements
 
-- Git
-- Docker
-- Docker Compose
-- GNU/Make
+- [Git](https://git-scm.com/)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+- [GNU/Make](https://www.gnu.org/software/make/)
 
 ## Clone
 
@@ -30,7 +30,7 @@ $ make start
 
 ## Dependencies installation
 
-*Install all dependencies listed in the [`package.json`](./package.json) file.*
+*Install all dependencies listed in the [`package.json`](./package.json) file. This is run automatically when using `make` or `make start`.*
 
 ```console
 $ make install
